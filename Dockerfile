@@ -1,6 +1,6 @@
 FROM Debian:latest
-ADD pam/pam_pwdfile.so "/lib/security/pam_pwdfile.so"
-ADD pam/sockd "/etc/pam.d/sockd"
+# ADD pam/pam_pwdfile.so "/lib/security/pam_pwdfile.so"
+# ADD pam/sockd "/etc/pam.d/sockd"
 ADD danted "/home/danted"
 WORKDIR /home/danted
 COPY . /home/danted
