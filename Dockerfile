@@ -1,4 +1,4 @@
-FROM Debian:latest
+FROM debian:latest
 # ADD pam/pam_pwdfile.so "/lib/security/pam_pwdfile.so"
 # ADD pam/sockd "/etc/pam.d/sockd"
 ADD danted "/home/danted"
